@@ -1,0 +1,98 @@
+@media (width<=575px) and (width>=0px){
+    .manu_right_abc{
+        right: -15rem !important;
+    }
+    .manu_right{
+    position: fixed;
+    flex-direction: column-reverse;
+    justify-content: flex-end;
+    right: 0;
+    height: 100% !important;
+    background-color: rgb(255, 255, 255);
+    width: 15rem;
+    transition:all .4s ;
+    
+    }
+    .manu_right_a{
+    display: flex !important;
+    flex-direction: column;
+    height: auto !important;
+    
+    
+    }
+    .manu_right_a a{
+        width: 100%;
+        padding-block: 1rem;
+    
+    }
+    .manu_right_b a{
+    
+        padding-block: 1rem;
+    }
+
+}
+@media (width<=767px) and (width>=576px){
+    .manu_right_abc{
+        right: -15rem !important;
+    }
+    .manu_right{
+    position: fixed;
+    flex-direction: column-reverse;
+    justify-content: flex-end;
+    right: 0;
+    height: 100% !important;
+    background-color: rgb(255, 255, 255);
+    width: 15rem;
+    transition:all .4s ;
+    
+    }
+    .manu_right_a{
+    display: flex !important;
+    flex-direction: column;
+    height: auto !important;
+    
+    
+    }
+    .manu_right_a a{
+        width: 100%;
+        padding-block: 1rem;
+    
+    }
+    .manu_right_b a{
+    
+        padding-block: 1rem;
+    }
+
+}
+@media (width<=991px) and (width>=768px){
+    .manu_right_abc{
+        right: -15rem !important;
+    }
+    .manu_right{
+    position: fixed;
+    flex-direction: column-reverse;
+    justify-content: flex-end;
+    right: 0;
+    height: 100% !important;
+    background-color: rgb(255, 255, 255);
+    width: 15rem;
+    transition:all .4s ;
+    
+    }
+    .manu_right_a{
+    display: flex !important;
+    flex-direction: column;
+    height: auto !important;
+    
+    
+    }
+    .manu_right_a a{
+        width: 100%;
+        padding-block: 1rem;
+    
+    }
+    .manu_right_b a{
+    
+        padding-block: 1rem;
+    }
+}

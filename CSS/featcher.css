@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+:root{
+    --ut:"Ubuntu", serif;
+}
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{  
+   font-family: "Roboto", serif ;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* start here  */
+.topfea2_a3{
+font-size: 3rem;
+font-weight: 600;
+font-family: var(--ut);
+}
+.topfea2_a2{
+font-size: 1.2rem;
+
+}
+.topfea2_a1{
+background-color: #252370 !important;
+/* padding: 600px; */
+padding: 1rem 3rem;
+font-size: 1.2rem;
+   
+}
+.topfea2_a1:hover{
+    transform: translateY(-3px);
+    background-color: #252370c5 !important;
+    
+}
+.topfea3{
+ background-image: url(../IMG/featcherfirst.png);
+ background-size: 100% 100%;
+ width: 400px;
+ height: 400px;
+ 
+
+}
+.fa-magnifying-glass{
+top: 50%;
+transform: translateY(-50%);
+left: 0;
+font-size: 2rem;
+}
+.axyt45{
+font-size: 1.9rem;
+}
+.he244244{
+width: 100%;
+height: 100%;
+padding-left: 5rem;
+
+
+}
+.he244244as{
+font-size: 1.5rem;
+width: 600px;
+height: 50px;
+box-shadow: 1px 1.4px 4px black;
+}
+.he244244:focus{
+outline: none;
+}
+/* <!-- let start new 3 --> */
+.divleft_a{
+width: 300px;
+top: 50px;
+}
+.divleft_ai{
+font-size: 2rem;
+font-weight: 700;
+}
+.clicklopens45{
+width: 600px;
+border: 1px solid rgba(0, 0, 0, 0.913);
+/* background-color: #D7EAB3; */
+margin-block: 1rem;
+}
+.clicklopens45:hover{
+    background-color: #D7EAB3;
+}
+.adsfdsf345s4eer4{
+    background-color: #D7EAB3;
+}
+.divleft_a_1:hover{
+  background-color: #D7EAB3;
+}
+.pfirstl35{
+font-size: 3rem;
+font-weight: bold;
+}
+.pfd5453{
+ max-width: 900px;   
+font-size: 1.5rem;
+font-weight: bolder;
+/* color: wheat; */
+}
+.btndfow453{
+    box-sizing: border-box;
+padding: 1rem 3rem;
+justify-content: center !important;
+color: white;
+}
+.btndfow453:hover{
+    border: 1px solid black;
+  background-color: white !important;
+color: black;
+}
+.ketdf674{
+  background-color: rgb(185, 203, 240);
+  padding-block: 4rem;
+}
+.boxfor_wrap4545{
+width: 280px;
+box-shadow: 0px 1px 4px black;
+margin: .7rem;
+
+}
+.boxfor_wrap4545:hover{
+    box-shadow: 0px 2px 5px black;
+    transform: translateY(-3px);
+
+}
+.upside{
+width: 100%;
+
+}
+.positionabsulote{
+right: 10px;
+  background-color: rgb(219, 207, 42);
+  color: white;
+  padding: .6rem 2rem;
+  top: 10px;
+  font-size: 1rem;
+}
+.all_thwe_34df533{
+  background-color: rgb(98, 228, 98);
+  color: white;
+  padding: 1rem 5rem;
+  display: inline-block;
+  text-decoration: none;
+  margin: auto;
+  font-size: 1.3rem;
+}
+.all_thwe_34df533:hover{
+    background-color: rgba(98, 228, 98, 0.806);
+    transform: translateY(-3px);
+
+}
+.clasdd3455f454{
+font-size: 4rem;
+font-weight: 700;
+}
+.faangle_down{
+    background-color: rgb(235, 235, 149);
+
+
+}
+.dfd_23we3:hover{background-color: rgb(235, 235, 149);
+
+
+}
+.dfd_23we3{
+    /* transition: all 2s linear 1s; */
+max-width: 600px;
+}

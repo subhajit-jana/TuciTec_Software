@@ -1,0 +1,138 @@
+@media (width<=575px) and (width>=0px){
+    .this_class_forIMfg img{
+
+        width: 100px;
+        height: 70px;
+        
+        }
+
+    
+    .h1_code{
+        width: 100%;
+        
+        
+        }
+
+
+    
+.blog_left_for{
+    width: 100%;
+    
+    }
+    .blog_right_for{
+        width: 100%;
+        
+        }
+    
+    
+    .t_for_s_p1{
+
+        font-size: 2.5rem;
+        font-weight: bold;
+        
+        }
+        .t_for_s_p2{
+            font-size: 1.5em;
+        
+        
+        }
+    .container_fot_companylogo img{
+        filter: grayscale(1) contrast(1.5) brightness(1);
+        width: 100px;
+        height: 100px;
+    
+    }
+    .fa-arrow-right{
+        transform: rotate(90deg);
+        margin-bottom: .7rem;
+        
+        }
+        .right_product img{
+            display: none;
+        }
+}
+@media (width<=767px) and (width>=576px){
+    .container_fot_companylogo img{
+        filter: grayscale(1) contrast(1.5) brightness(1);
+        width: 100px;
+        height: 100px;
+    
+    }
+    .this_class_forIMfg img{
+
+    width: 130px;
+    height: 80px;
+    
+    }
+    .h1_code{
+        width: 100%;
+        
+        
+        }
+    .blog_left_for{
+        width: 100%;
+        
+        }
+    .blog_right_for{
+        width: 100%;
+        
+        }
+    
+
+
+    .t_for_s_p1{
+
+        font-size: 2.5rem;
+        font-weight: bold;
+        
+        }
+        .t_for_s_p2{
+            font-size: 1.5em;
+        
+        
+        }
+    .container_fot_companylogo img{
+        filter: grayscale(1) contrast(1.5) brightness(1);
+        width: 100px;
+        height: 100px;
+    
+    }
+    .fa-arrow-right{
+    transform: rotate(90deg);
+    margin-bottom: .7rem;
+
+    
+    }
+    .right_product img{
+        display: none;
+    }
+}
+@media (width<=991px) and (width>=768px){
+    .blog_left_for{
+        width: 100%;
+        
+        }
+    .blog_right_for{
+    width: 100%;
+    
+    }
+
+    .container_fot_companylogo img{
+        filter: grayscale(1) contrast(1.5) brightness(1);
+        width: 120px;
+        height: 120px;
+    
+    }
+    .right_product img{
+        height: 350px;
+        width:350px;
+    
+    
+    }
+    .fa-arrow-right{
+        transform: rotate(90deg);
+        margin-bottom: .7rem;
+    
+        
+        }
+}

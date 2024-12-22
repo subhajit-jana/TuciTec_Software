@@ -1,0 +1,118 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{  
+   font-family: "Roboto", serif ;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+*{
+    box-sizing: border-box;
+}
+.bg_login_parent{
+    /* background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%);background-size: cover;  */
+    /* background-image: linear-gradient(to top, #9be15d 0%, #00e3ae 100%); */
+width: 100%;
+ background-image: url(../IMG/mountain.jpg);
+
+height: 92vh;
+}
+
+.from_login_page{   
+   
+    font-family: "Roboto Slab";
+  
+
+padding-inline: 5rem;
+box-shadow: 0px 0px 6px 0px rgba(87, 82, 82, 0.401);
+}
+.google_login_btn{
+width: 100%;
+display: inline-block;
+border-radius: 10px;
+
+}
+.google_login_btn:hover{
+  background-color: #112536 !important;
+
+
+}
+.account_log{
+width: 100%;
+display: inline-block;
+border-radius: 10px;
+}
+.account_log:hover{
+
+  background-color: rgba(4, 152, 90, 0.792) !important;
+
+
+}
+
+/* inpur vaule  */
+#mail_input{
+font-size: 2rem;
+}
+#mail_input::placeholder{
+    color: rgb(225, 212, 212);
+
+
+}
+#password_input::placeholder{
+    color: rgb(225, 212, 212);
+
+
+}
+#password_input{
+font-size: 2rem;}
+
+#password_input:focus{
+    outline: none;
+
+}
+#mail_input:focus{
+    outline: none;
+
+}
+
+/* ///// */
+
+.icon_for_inp{
+top: 50%;
+transform: translateY(-50%);
+padding-inline: 1rem;
+
+}
+.google_pic{
+
+width: 30px;
+height: 30px;
+
+
+}
+.text-info_emphasis {
+      color: rgb(27, 131, 48);
+    
+
+
+}
+.hide_password{
+
+    width: 40px;
+    height: 40px;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 0px;
+}
+.forgot_pass:hover{
+cursor: pointer;
+text-decoration: underline;
+
+}
+input:focus {
+    
+border: 2px solid rgba(1, 0, 0, 0.536) !important;
+box-sizing: border-box;
+}

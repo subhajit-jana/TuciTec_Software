@@ -1,0 +1,381 @@
+@media (width<=575px) and (width>=0px){
+    .curve_contaienr{
+        border-radius: none;
+        box-shadow:none;
+        
+        }
+    .content_container_f{
+       
+      
+    max-width: 900px;
+    width: 100%;
+    
+    }
+    .footer_container_addp{
+    padding-left: 0;
+    
+    }
+    .form_select{
+        width: 10rem !important;
+        
+        }
+    .first_img_container{
+        /* max-width: 767px; */
+        width: 95%;
+        
+        
+        }
+    .first_img_container_main{
+        padding-left: 0%;
+        
+        }
+    .sidebar_main_container{
+        background-color:  #EFF0F1;
+        
+        width: 100vw;
+        
+        }
+    .Log_contain_li{
+        padding-left: 2rem !important;
+    }
+    .Pricing_contain_main{
+        padding-left: 2rem !important
+    }
+
+.displaynotneed{
+    display: none !important;
+}
+.navbar_leftside_ul{
+      background-color: white;
+      padding-inline-start: 1rem !important;
+    
+    position: fixed;
+    top: 2.9rem;
+    
+    right: 0;
+    
+    padding: 0;
+    overflow-y: scroll;
+     height: 100vh;
+     width: 100%;
+        
+    
+        
+        
+    
+
+}
+
+.product_container{
+    position: static;
+    width: 100%;
+    left: 0;
+    transform: translatex(0);
+    top:0;
+   }
+   
+   .company_container{
+    position: static;
+
+    left: 0;
+    transform: translatex(0);
+    top:0;
+   }
+   .en_container{
+    
+    left: 0;
+    transform: translatex(0);
+    top:0;
+   }
+   .product_container_main{
+    padding: 0 !important;
+      
+   }
+.company_container_main{
+    padding: 0 !important;
+}
+.change_bg_on_over:hover{
+    background-color: transparent;
+    color: black !important;
+   }
+
+   .product_img_span_icon{
+
+    height: 30px;
+    width: 30px;
+    background-size: 100% 100%;
+    border-radius: 50%;
+   }
+   .text_columns{
+   font-size: .7rem;
+   font-weight: 700 !important;
+
+   
+   }
+  
+   .navbar_leftside ul li {
+    padding: .7rem;
+    list-style: none;
+    
+}
+.product_img_flex_icon{
+
+    height: 30px;
+    width: 30px;
+}
+.buttom_border{
+    border-bottom: 1px solid lightgray;
+}
+
+  
+
+}
+@media (width<=767px) and (width>=576px){
+    .curve_contaienr{
+        border-radius: none;
+        box-shadow:none;
+        
+        }
+    .content_container_f{
+       
+      
+    max-width: 900px;
+    width: 100%;
+    
+    }
+    .footer_container_addp{
+    padding-left: 0;
+    
+    }
+    .first_img_container{
+        /* max-width: 767px; */
+        width: 95%;
+        
+        
+        }
+    .first_img_container_main{
+        padding-left: 0%;
+        
+        }
+
+    .sidebar_main_container{
+    background-color:  #EFF0F1;
+    
+    width: 100vw;
+    
+    }
+
+    .Log_contain_li{
+        padding-left: 2rem !important;
+    }
+    .Pricing_contain_main{
+        padding-left: 2rem !important
+    }
+
+.displaynotneed{
+    display: none !important;
+}
+.navbar_leftside_ul{
+    
+      background-color: white;
+      padding-inline-start: 1rem !important;
+    
+    position: fixed;
+    top: 2.9rem;
+    
+    right: 0;
+    
+    padding: 0;
+    /* width: 100vw !important; */
+    overflow-y: scroll;
+        height: 100vh;
+        width: 100%;
+        
+    
+        
+        
+    
+
+}
+
+.product_container{
+    position: static;
+
+    width: 100%;
+    left: 0;
+    transform: translatex(0);
+    top:0;
+   }
+   
+   .company_container{
+    position: static;
+
+
+    left: 0;
+    transform: translatex(0);
+    top:0;
+   }
+   .en_container{
+        position: static;
+
+    left: 0;
+    transform: translatex(0);
+    top:0;
+   }
+   .product_container_main{
+    padding: 0 !important;
+      
+   }
+.company_container_main{
+    padding: 0 !important;
+}
+.change_bg_on_over:hover{
+    background-color: transparent;
+    color: black !important;
+   }
+
+   .product_img_span_icon{
+    height: 30px;
+    width: 30px;
+    background-size: 100% 100%;
+    border-radius: 50%;
+   }
+   .text_columns{
+   font-size: .7rem;
+   font-weight: 700 !important;
+
+   
+   }
+  
+   .navbar_leftside ul li {
+    padding: .7rem;
+    list-style: none;
+    
+}
+.product_img_flex_icon{
+
+    height: 30px;
+    width: 30px;
+}
+.buttom_border{
+    border-bottom: 1px solid lightgray;
+}
+
+  
+
+}
+@media (width<=991px) and (width>=768px){
+    .curve_contaienr{
+        border-radius: none;
+        box-shadow:none;
+        
+        }
+    .first_img_container{
+        max-width: 650px;
+       
+        
+        
+        }
+    .first_img_container_main{
+        padding-left: 14rem;
+        
+        }
+    .Log_contain_li{
+        padding-left: 2rem !important;
+    }
+    .Pricing_contain_main{
+        padding-left: 2rem !important
+    }
+
+.displaynotneed{
+    display: none !important;
+}
+.navbar_leftside_ul{
+      background-color: white;
+      padding-inline-start: 1rem !important;
+    
+    position: fixed;
+    top: 2.9rem;
+    
+    right: 0;
+    
+    padding: 0;
+    /* width: 100vw !important; */
+    overflow-y: scroll;
+        height: 100vh;
+        max-height: 600px;
+    
+        
+        
+    
+
+}
+
+.product_container{
+    position: static;
+
+    width: 100%;
+    left: 0;
+    transform: translatex(0);
+    top:0;
+   }
+   
+   .company_container{
+    position: static;
+    left: 0;
+    transform: translatex(0);
+    top:0;
+   }
+   .en_container{
+    position: static;
+
+
+    left: 0;
+    transform: translatex(0);
+    top:0;
+   }
+   .product_container_main{
+    padding: 0 !important;
+      
+   }
+.company_container_main{
+    padding: 0 !important;
+}
+.change_bg_on_over:hover{
+    background-color: transparent;
+    color: black !important;
+   }
+
+   .product_img_span_icon{
+    height: 30px;
+    width: 30px;
+    background-size: 100% 100%;
+    border-radius: 50%;
+   }
+   .text_columns{
+   font-size: .7rem;
+   font-weight: 700 !important;
+
+   
+   }
+  
+   .navbar_leftside ul li {
+    padding: .7rem;
+    list-style: none;
+    
+}
+.product_img_flex_icon{
+
+    height: 30px;
+    width: 30px;
+}
+.buttom_border{
+    border-bottom: 1px solid lightgray;
+}
+
+
+
+}
+
+
+

@@ -1,0 +1,61 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{  
+   font-family: "Roboto", serif ;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.fsdfsfwewdfwe{
+  background-color: #a7f2dc;
+  padding-bottom: 200px;
+
+
+}
+.sfwee67d{
+
+font-size: 4.4rem;
+
+}
+.fgdfggr{
+font-size: 2rem;
+
+}
+.gfdgdfgsdfg{
+position: absolute;
+
+}
+.gdfgdgdfgdfg{
+
+  text-align: justify;
+
+}
+.wrapper_boxdiv{
+border: .5px solid gray;
+
+
+}
+.sdfsdfsdfasdfd:hover{
+box-shadow: 0px 0px 2px black;
+  background-color: rgb(15, 149, 211) !important;
+
+}
+
+.sdfsdfsdffdfasdfd:hover{
+  box-shadow: 0px 0px 2px black;
+    background-color: rgb(16, 168, 228) !important;
+  
+  }
+  .sdfsdfsdfadfdsdfd:hover{
+    box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.308);
+  
+    
+    }
+
+    .sdfsdfsdfadfddfdsdfd:hover{
+      box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.308);
+    
+      
+      }

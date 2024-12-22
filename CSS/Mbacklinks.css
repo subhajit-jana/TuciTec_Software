@@ -1,0 +1,77 @@
+@media (width<=575px) and (width>=0px){
+    .container_fot_companylogo img{
+        filter: grayscale(1) contrast(1.5) brightness(1);
+        width: 100px;
+        height: 100px;
+    
+    }
+    .cnoboxforlast_contet{
+    width: 90%;
+    
+    }
+
+    .itemboxlist{
+        width: 27rem;
+        padding: 1rem;
+        }
+        .itemboxlist_conr{
+        gap: 20px;
+        
+        }
+
+ html{
+ font-size: 10px;
+ }
+ .bixfirimg_p{
+ bottom: 0px;
+ left: 50%;
+ transform: translateX(-50%);
+ width: 120%;
+ padding: .5rem .7rem;
+ }
+ .x2ndcontaier_as_asw{
+ font-size: 2rem;
+ line-height: 2rem;
+ }
+}
+@media (width<=767px) and (width>=576px){
+    .cnoboxforlast_contet{
+        width: 80% !important;
+        
+        }
+    .itemboxlist{
+        width: 15rem;
+        padding: 1rem;
+        }
+        .itemboxlist_conr{
+        gap: 10px;
+        
+        }
+
+.x2ndcontaier_as_asw{
+font-size: 2rem;
+line-height: 2rem;
+}
+.bixfirimg_p{
+ bottom: 0px;
+ left: 50%;
+ transform: translateX(-50%);
+ width: 120%;
+ padding: .5rem .7rem;
+ }
+}
+@media (width<=991px) and (width>=768px){
+
+
+.itemboxlist{
+ width: 20rem;
+ padding: 1rem;
+ }
+ .itemboxlist_conr{
+ gap: 10px;
+ 
+     }
+html{
+ font-size: 10px;
+}
+}

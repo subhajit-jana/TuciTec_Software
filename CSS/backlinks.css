@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{  
+   font-family: "Roboto", serif ;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ :root{
+    --robot:"Roboto", serif;
+    --open:"Open Sans", serif;
+ }
+ .firstwrapbox{
+ font-family: var(--robot);
+ }
+ .firstwrapbox_f1{
+ margin-block: 3rem;
+ }
+ .firstwrapbox_a{
+ font-size: 3.5rem;
+ font-weight: 800;
+ margin-block: 2rem;
+ line-height: 3.3rem;
+ font-style: italic;
+ }
+ .firstwrapbox_b{
+ font-size: 1.2rem;
+ font-weight: none;
+ font-family: var(--open);
+ }
+ .firstwrapbox_c{
+ font-size: 1.2rem;
+ font-weight: none;
+ font-family: var(--open);
+ }
+ .firstwrapbox_btn{
+ margin-block: 1rem;
+ 
+ }
+.firstwrapbox_btn a{
+padding: 1rem 2.1rem;
+background-color: #8E159E;
+color: white;
+font-size: 1.3rem;
+}
+.firstwrapbox_btn a:hover{
+box-shadow: 0px 0px 4px rgb(48, 94, 174);
+transform: translateY(-2px);
+}
+.bixfirimg{
+width: 20rem;
+height: 20rem;
+background-color: white;
+margin-block: 2rem;
+background-image: url(../IMG/backlink3.jpg);
+background-size: cover;
+}
+.bixfirimg_p{
+padding: .5rem .7rem;
+bottom: 0px;
+left: 30%;
+width: 100%;
+}
+.x2ndcontaier_as{
+margin-block: 2rem;
+}
+.x2ndcontaier_as_asw{
+font-size: 2.6rem;
+font-family: var(--robot);
+font-weight: 700;
+}
+.x2ndcontaier{
+background: #092520;
+}
+.terthcenetersdf{
+font-size: 3rem !important;
+font-weight: bolder;
+
+}
+.terthceneter{
+max-width: 800px;
+font-weight: 400;
+font-family: var(--open);
+font-size: 1.2rem;
+}
+.terthcenetersdf_contar{
+margin: 4rem auto;
+}
+.itemboxlist{
+width: 16rem;
+padding: 1rem;
+}
+.itemboxlist_conr{
+gap: 20px;
+margin-block: 3rem;
+}
+.itemboxlist:hover{
+box-shadow: 1px 2px 4px lightgray;
+}
+.srater4343{
+font-size: 1.4rem;
+}
+.cnfre3534df{
+font-size: 2rem;
+}
+.cnfre3534dfwee{
+  background-color: #b3ffcca1;
+  padding-block: 3rem;
+}
+.clickclosebtn45{
+width: 70%;
+padding-inline: 2rem;
+}
+.clickcolorchane{
+background-color: #b3ffcc84;
+}
+.clickcolorchaneforhkover{
+background-color: #b3ffcc84;
+}
+.sxfer55{
+font-size: 4rem;
+font-family: var(--robot);
+font-weight: 500;
+margin-top: 4rem;
+
+}
+.fortex454{
+font-size: 3.5rem;
+font-weight: 700;
+}
+.fortex454_a{
+font-size: 1.4rem;
+max-width: 700px;
+}
+.fortex454_btn{
+    padding: 1rem 2.1rem;
+    background-color: #8e159e;
+    color: white;
+    font-size: 1.3rem;
+
+}
+.fortex454_btn:hover{
+    
+    box-shadow: 0px 0px 4px rgb(48, 94, 174);
+    transform: translateY(-2px);
+
+}
+
+.fdfe55645dd{
+  background-color:#EBEBEB ;
+  
+
+
+}
+.moth454{
+font-size: 1.5rem;
+font-weight:600;
+}
+.moth454_a{
+font-size: 1.2rem;
+
+}
+.moth454_a1{
+font-size: 3rem;
+}
+.fwbol4545d_btn{
+      width: 100%;
+    padding: .7rem 0rem;
+    background-color: #8e159e;
+    color: white;
+    font-size: 1.3rem;
+
+}
+
+.fwbol4545d_btn:hover{
+        box-shadow: 0px 0px 4px rgb(48, 94, 174);
+        transform: translateY(-2px);
+    
+    }
+    .text45545{
+    font-size: 4rem;
+    font-weight: 700;
+    
+    }
+
+    
+    .container_fot_companylogo_fluid{
+        background-color: #f5ded8;
+        margin-block: 4rem;
+        padding-block: 2rem;
+      
+      
+      }
+      .dfdfd34{
+        background-color: #f5ded8;
+      
+      
+      }

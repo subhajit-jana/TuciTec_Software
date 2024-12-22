@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto+Slab:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{  
+   font-family: "Roboto", serif ;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+/* --------------------------------- */
+.diccout_header{
+    font-family: "Playfair Display", serif;
+    font-weight: 400;
+    color:#005247;
+}
+.diccout_header_here{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    color:#e27217;
+}
+.diccout_header_flu{
+
+  background-color:#c4fcf0;
+
+}
+.fa-arrow-right{
+color: #54433a;
+
+    
+}
+.right_product img{
+        height: 400px;
+        max-width:400px;
+    
+    
+    }
+.exploerflu{
+
+  background-color: #e27217;
+
+
+}
+.exploerflu_header{
+color: white;
+font-size: 3rem;
+font-weight: bolder;
+}
+.exploerflu_paragraph{
+
+    color: white;
+    font-size: 1.3rem;
+    font-weight: 400;
+}
+.exploerflu_btn{
+  background-color: #006e5e;
+  color: white;
+  text-decoration: none;
+
+
+}
+.img_secction_for_ex img{
+width: 100px;
+height: 80px;
+border-radius: 10px;
+
+}
+.container_fot_companylogo img{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+
+    filter: grayscale(1) contrast(1.5) brightness(1);
+    width: 150px;
+    height: 150px;
+
+}
+.container_fot_companylogo_fluid{
+  background-color: #f5ded8;
+
+
+}
+.t_for_s_p1{
+
+font-size: 3rem;
+font-weight: bold;
+
+}
+.t_for_s_p2{
+    font-size: 2rem;
+
+
+}
+.blog_right_for{
+width: 50%;
+background-image: url(../IMG/expolore\ left\ banner.jpg);
+background-size: 100% 100%;
+height: 27rem;
+
+}
+
+.blog_left_for{
+width: 50%;
+
+}
+.code_flu{
+
+  background-color: #E27217;
+  color: white;
+
+}
+.h1_code{
+width: 50%;
+
+
+}
+.trans_classs_id{
+transition: all 2s ease-in;
+
+}
+.nss_contaier_flu{
+  background-color:#548330;
+
+
+}
+.wrapber_box_GRoup_img{
+ background-image: url(../IMG/tech_upgrade_.jpg);
+ background-size: 100% 100%;
+ height: 15rem;
+
+
+}
+
+.col_shadow_www{
+  margin-inline: auto;
+  border: 1px solid rgba(51, 49, 49, 0.527);
+
+
+}
+.col_shadow_www:hover{
+  box-shadow: 0px 0px 3px 0px rgb(57, 46, 46);
+}
+.explore_btn:hover{
+  box-shadow: 0px 0px 3px 0px rgb(46, 57, 57);
+
+
+}
+.wisf_clilck_arrow{
+transform: rotate(180deg);
+
+}
+.clickopen_containergdfg{
+border: 1px solid  rgba(125, 175, 112, 0.527);
+}
+.clickopen_containergdfg_a:hover{
+    background-color: rgba(125, 175, 112, 0.527);
+  
+
+
+}
+.clickopen_containergdfg_dfdf{
+  background-color: rgba(125, 175, 112, 0.527);
+
+
+
+}
+.nerpeakp{
+  color: #E27217;
+
+font-size: 30px;
+font-weight: bold;
+
+}
+.nerpeakpwwesd{
+
+  background-color: #E27217;
+
+}
+.nerpeakpwwe{
+
+  font-size: 40px;
+  font-weight: bold;
+  
+  }
+  .SEE_ALL_REVIEWS:hover{
+  box-shadow: 0px 0px 4px rgb(199, 20, 104);
+  
+  }

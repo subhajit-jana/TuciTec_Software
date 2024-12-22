@@ -1,0 +1,70 @@
+@media (width<=575px) and (width>=0px) {
+  
+.fsfsdfs343sf{
+  width: 100% !important;
+  }
+
+
+  .container_fot_companylogo img{
+    filter: grayscale(1) contrast(1.5) brightness(1);
+    width: 100px;
+    height: 100px;
+
+}
+  .sallbtn43{
+  width: 70%;
+  text-align: center;
+  padding: .7rem !important;
+  
+  }
+  .img45s img{
+    width: 100px;
+    
+  
+  
+  }
+  .try_net2343 {
+    font-size: 1.5rem;
+  }
+  .start3443{
+    font-size: .8rem;
+    font-family: "Poppins", sans-serif;
+  }
+  .sary09344 {
+    padding: 1rem 1.5rem;
+    display: inline-block;
+    background-color: #000000;
+    color: #46BB1B;
+    font-family: "Poppins", sans-serif;
+    font-size: 1rem;
+}
+    .start3443{
+        font-size: 1rem;
+        font-family: "Poppins", sans-serif;
+      }
+}
+@media (width<=767px) and (width>=576px) {
+  
+.fsfsdfs343sf{
+  width: 80% !important;
+  }
+     .boxfokrwra{
+     width: 263px;
+     
+     }
+    .try_net2343 {
+        font-size: 3rem;
+      }
+      .start3443{
+        font-size: .8rem;
+        font-family: "Poppins", sans-serif;
+      }
+}
+@media (width<=991px) and (width>=768px) {
+  .container_fot_companylogo img{
+    filter: grayscale(1) contrast(1.5) brightness(1);
+    width: 120px;
+    height: 120px;
+
+}
+}
