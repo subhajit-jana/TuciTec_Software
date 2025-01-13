@@ -25,6 +25,8 @@ const sidebar_open_close_btn_a=document.getElementById('sidebar_open_close_btn_a
 const logo_d=document.getElementById('logo_d');
 const first_img_container_main=document.getElementById('first_img_container_main');
 const footer_container_addp=document.getElementById('footer_container_addp');
+//.......................................
+//////out side click
 
 
 
@@ -32,6 +34,7 @@ const footer_container_addp=document.getElementById('footer_container_addp');
 
 
 
+// .......................................
 rowaddevntbg.forEach((e,idx)=>{
 e.addEventListener('mouseover',()=>{
 e.style.backgroundColor='#F5F6F7';
@@ -62,27 +65,47 @@ Pricing_contain_main.addEventListener('mouseleave',()=>{
 });
 // product 
 let i_product_li_id=0;
-product_li_id.addEventListener('click',()=>{
-    logo_a.classList.add('rotate30');
-
+product_li_id.addEventListener('click',(event)=>{
     
-    product_li_id.classList.toggle('clolr');
-    product_li_id.firstChild.classList.toggle('text_hoverglow');
-    product_li_id.lastElementChild.color='white';
-    // product_li_id.lastChild.style.backgroundColor='white';
-    // product_li_id.lastChild.style.color='white';
     if(i_product_li_id==0){
+        product_li_id.lastElementChild.color='white';
+        product_li_id.classList.add('clolr');
+        product_li_id.firstChild.classList.add('text_hoverglow');
         product_li_id.lastElementChild.classList.remove('d-lg-none')
         product_li_id.lastElementChild.classList.add('d-lg-block');
         i_product_li_id=1;
         logo_a.classList.add('rotate30');
+        
     }else{
+        product_li_id.lastElementChild.color='white';
+        product_li_id.classList.remove('clolr');
+        product_li_id.firstChild.classList.remove('text_hoverglow');
+
+
         product_li_id.lastElementChild.classList.add('d-lg-none')
         product_li_id.lastElementChild.classList.remove('d-lg-block');
         i_product_li_id=0;
         logo_a.classList.remove('rotate30');
         
     }
+    if (i_company_ld_li === 1) {
+        company_ld_li.classList.remove('clolr');
+        company_ld_li.firstChild.classList.remove('text_hoverglow');
+            company_ld_li.lastElementChild.classList.add('d-lg-none');
+            company_ld_li.lastElementChild.classList.remove('d-lg-block');
+            i_company_ld_li = 0;
+            logo_b.classList.remove('rotate30');
+        }
+    if(i_en_id_li=1){
+        en_id_li.classList.remove('clolr');
+en_id_li.firstChild.classList.remove('text_hoverglow');
+en_id_li.lastElementChild.color='white';
+    en_id_li.lastElementChild.classList.add('d-lg-none');
+    en_id_li.lastElementChild.classList.remove('d-lg-block');
+    i_en_id_li=0;
+    logo_c.classList.remove('rotate30');
+    }
+    event.stopPropagation();
     
     
 });
@@ -100,27 +123,94 @@ product_li_id.addEventListener('mouseleave',()=>{
 
 // company?
 
-let i_company_ld_li=0;
 
+let i_company_ld_li = 0;
 
-company_ld_li.addEventListener('click',()=>{
+company_ld_li.addEventListener('click', (event) => {
+    
     company_ld_li.classList.toggle('clolr');
     company_ld_li.firstChild.classList.toggle('text_hoverglow');
-    company_ld_li.lastElementChild.color='white';
-    
-    if(i_company_ld_li==0){
+    company_ld_li.lastElementChild.color = 'white';
+
+    if (i_company_ld_li === 0) {
+        company_ld_li.classList.add('clolr');
+    company_ld_li.firstChild.classList.add('text_hoverglow');
         company_ld_li.lastElementChild.classList.remove('d-lg-none');
         company_ld_li.lastElementChild.classList.add('d-lg-block');
-        i_company_ld_li=1;
+        i_company_ld_li = 1;
         logo_b.classList.add('rotate30');
-    }else{
+    } else {
+        company_ld_li.classList.remove('clolr');
+    company_ld_li.firstChild.classList.remove('text_hoverglow');
         company_ld_li.lastElementChild.classList.add('d-lg-none');
         company_ld_li.lastElementChild.classList.remove('d-lg-block');
-        i_company_ld_li=0;
+        i_company_ld_li = 0;
         logo_b.classList.remove('rotate30');
     }
+    // ?
     
-})
+
+        if(i_product_li_id==1){
+            product_li_id.lastElementChild.color='white';
+        product_li_id.classList.remove('clolr');
+        product_li_id.firstChild.classList.remove('text_hoverglow');
+
+
+        product_li_id.lastElementChild.classList.add('d-lg-none')
+        product_li_id.lastElementChild.classList.remove('d-lg-block');
+        i_product_li_id=0;
+        logo_a.classList.remove('rotate30');
+        }
+        if(i_en_id_li=1){
+            en_id_li.classList.remove('clolr');
+    en_id_li.firstChild.classList.remove('text_hoverglow');
+    en_id_li.lastElementChild.color='white';
+        en_id_li.lastElementChild.classList.add('d-lg-none');
+        en_id_li.lastElementChild.classList.remove('d-lg-block');
+        i_en_id_li=0;
+        logo_c.classList.remove('rotate30');
+        }
+    // 
+
+    
+    event.stopPropagation();
+});
+
+
+document.addEventListener('click', () => {
+
+    console.log("clicked")
+    if (i_company_ld_li === 1) {
+        company_ld_li.classList.remove('clolr');
+        company_ld_li.firstChild.classList.remove('text_hoverglow');
+            company_ld_li.lastElementChild.classList.add('d-lg-none');
+            company_ld_li.lastElementChild.classList.remove('d-lg-block');
+            i_company_ld_li = 0;
+            logo_b.classList.remove('rotate30');
+        }
+
+        if(i_product_li_id==1){
+            product_li_id.lastElementChild.color='white';
+        product_li_id.classList.remove('clolr');
+        product_li_id.firstChild.classList.remove('text_hoverglow');
+
+
+        product_li_id.lastElementChild.classList.add('d-lg-none')
+        product_li_id.lastElementChild.classList.remove('d-lg-block');
+        i_product_li_id=0;
+        logo_a.classList.remove('rotate30');
+        }
+        if(i_en_id_li=1){
+            en_id_li.classList.remove('clolr');
+    en_id_li.firstChild.classList.remove('text_hoverglow');
+    en_id_li.lastElementChild.color='white';
+        en_id_li.lastElementChild.classList.add('d-lg-none');
+        en_id_li.lastElementChild.classList.remove('d-lg-block');
+        i_en_id_li=0;
+        logo_c.classList.remove('rotate30');
+        }
+});
+
 
 company_ld_li.addEventListener('mouseover',()=>{
     company_ld_li.children[0].style.color='#55B0FC';
@@ -139,7 +229,7 @@ company_ld_li.addEventListener('mouseover',()=>{
 let i_en_id_li=0;
 
 
-en_id_li.addEventListener('click',()=>{
+en_id_li.addEventListener('click',(event)=>{
     
     en_id_li.classList.toggle('clolr');
     en_id_li.firstChild.classList.toggle('text_hoverglow');
@@ -147,17 +237,50 @@ en_id_li.addEventListener('click',()=>{
     
     
     if(i_en_id_li==0){
+        en_id_li.classList.add('clolr');
+    en_id_li.firstChild.classList.add('text_hoverglow');
+    en_id_li.lastElementChild.color='white';
         en_id_li.lastElementChild.classList.remove('d-lg-none');
         en_id_li.lastElementChild.classList.add('d-lg-block');
         i_en_id_li=1;
         
         logo_c.classList.add('rotate30');
     }else{
+        en_id_li.classList.remove('clolr');
+    en_id_li.firstChild.classList.remove('text_hoverglow');
+    en_id_li.lastElementChild.color='white';
         en_id_li.lastElementChild.classList.add('d-lg-none');
         en_id_li.lastElementChild.classList.remove('d-lg-block');
         i_en_id_li=0;
         logo_c.classList.remove('rotate30');
     }
+    // 
+    if (i_company_ld_li === 1) {
+        company_ld_li.classList.remove('clolr');
+        company_ld_li.firstChild.classList.remove('text_hoverglow');
+            company_ld_li.lastElementChild.classList.add('d-lg-none');
+            company_ld_li.lastElementChild.classList.remove('d-lg-block');
+            i_company_ld_li = 0;
+            logo_b.classList.remove('rotate30');
+        }
+
+        if(i_product_li_id==1){
+            product_li_id.lastElementChild.color='white';
+        product_li_id.classList.remove('clolr');
+        product_li_id.firstChild.classList.remove('text_hoverglow');
+
+
+        product_li_id.lastElementChild.classList.add('d-lg-none')
+        product_li_id.lastElementChild.classList.remove('d-lg-block');
+        i_product_li_id=0;
+        logo_a.classList.remove('rotate30');
+        }
+        
+
+
+
+    // 
+    event.stopPropagation();
     
 })
 
@@ -369,4 +492,21 @@ login_li_id_lg.addEventListener('mouseleave',()=>{
 
 
 
-///////
+let objval=false
+document.addEventListener('click', () => {
+    
+if(i_product_li_id==1){
+    console.log("hellow world")
+    // product_li_id.lastElementChild.color='white';
+    //     product_li_id.classList.remove('clolr');
+    //     product_li_id.firstChild.classList.remove('text_hoverglow');
+
+
+    //     product_li_id.lastElementChild.classList.add('d-lg-none')
+    //     product_li_id.lastElementChild.classList.remove('d-lg-block');
+    //     i_product_li_id=0;
+    //     logo_a.classList.remove('rotate30');
+}
+    
+    
+  })
