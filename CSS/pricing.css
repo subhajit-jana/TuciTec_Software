@@ -1,0 +1,96 @@
+.single_product{
+height:60px;
+}
+.bunder_offer{
+    height:84px;
+    
+}
+.maxwhiforryit{
+width: 560px;
+}
+.containerfor_priciing{
+background-color: #aaf71bc0;
+}
+/* <!-- start 2nd --> */
+.bg_dffd4563white{
+  background-color: white;
+
+}
+.bg_dfere344{
+    background-color: #dfe0cf;
+}
+.per_monthplan{
+width: 360px;
+
+margin-block: 1rem;
+margin-inline: 1.3rem;
+border-radius: 10px;
+}
+.per_monthplan:hover{
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+   
+}
+
+.pricingButton{
+      background-color: rgb(19, 216, 154);
+     
+}
+.pricingButton:hover{
+    background-color: rgba(19, 216, 154, 0.47);
+    transform: translateY(-2px);
+    
+}
+.pricingButtonA{
+    background-color: rgb(101, 220, 64);
+  
+}
+.pricingButtonA:hover{
+    transform: translateY(-2px);
+    background-color: rgba(100, 220, 64, 0.8);
+  
+}
+.contaner_monthlycard{
+    width:600px ;
+    box-shadow: 0px 0px 3px 0px black;
+    
+}
+.getmonthlbtn{
+background-color: #3da1a1;
+color: white;
+}
+.getmonthlbtn:hover{
+    transform:translateY(-2px) ;
+}
+.Limonity450ff:hover{
+text-decoration: underline;
+}
+.Limonity450ff{
+text-decoration: none;
+}
+.bg_2332danger{
+  background-color: rgba(255, 0, 0, 0.653);
+  border-radius: 7px;
+
+}
+/* faqq */
+.faqw34{
+width: 80%;
+border: 2px solid rgba(58, 182, 231, 0.274);;
+/* height: 50px; */
+}
+.faqw34{
+border-radius: 12px;
+transition: all .3s ease ;
+}
+.faqw34:hover{
+    background-color: rgba(58, 182, 231, 0.274);
+
+}
+.addhovercollor{
+    background-color: rgba(58, 182, 231, 0.274);
+}
+.life_rerersfe{
+font-size: 14px;
+color: green;
+font-weight: bolder;
+}
