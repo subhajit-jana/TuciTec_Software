@@ -1,3 +1,4 @@
+let seletopt=2;
 // effect 
 const single_proudn343443=document.getElementById('single_proudn343443');
 const bundle_product343=document.getElementById('bundle_product343');
@@ -45,7 +46,7 @@ const lifeTimeselect=document.getElementById('lifeTimeselect');
 const monthlyshow=document.getElementById('monthlyshow');
 const yearlyshow=document.getElementById('yearlyshow');
 const lifetimeshow=document.getElementById('lifetimeshow');
-
+const highLight=document.querySelector(".highligharea_red")
 
 
 
@@ -53,6 +54,7 @@ const lifetimeshow=document.getElementById('lifetimeshow');
 
 
 monthlySelect.addEventListener("click",()=>{
+    runPriceanimation()
     monthlyshow.classList.remove('d-none');
     yearlyshow.classList.add('d-none');
     lifetimeshow.classList.add('d-none');
@@ -60,12 +62,16 @@ monthlySelect.addEventListener("click",()=>{
     monthlySelect.classList.add('bg_2332danger');
     yearlySelect.classList.remove('bg_2332danger');
     lifeTimeselect.classList.remove('bg_2332danger');
+    // 
+    highLight.style.left=`calc(100%/3*${0})`;
+
 
 
 })
 
 
 yearlySelect.addEventListener("click",()=>{
+    runPriceanimation()
     monthlyshow.classList.add('d-none');
     yearlyshow.classList.remove('d-none');
     lifetimeshow.classList.add('d-none');
@@ -73,10 +79,13 @@ yearlySelect.addEventListener("click",()=>{
     monthlySelect.classList.remove('bg_2332danger');
     yearlySelect.classList.add('bg_2332danger');
     lifeTimeselect.classList.remove('bg_2332danger');
+    //
+     highLight.style.left=`calc(100%/3*${1})`
 
 })
 
 lifeTimeselect.addEventListener("click",()=>{
+    runPriceanimation()
     monthlyshow.classList.add('d-none');
     yearlyshow.classList.add('d-none');
     lifetimeshow.classList.remove('d-none');
@@ -84,19 +93,59 @@ lifeTimeselect.addEventListener("click",()=>{
     monthlySelect.classList.remove('bg_2332danger');
     yearlySelect.classList.remove('bg_2332danger');
     lifeTimeselect.classList.add('bg_2332danger');
+    //
+     highLight.style.left=`calc(100%/3*${2})`
 
 
 })
 // faq 
 const clickfaq_area=document.querySelectorAll(".faqw34");
 const showhide=document.querySelectorAll(".showhide5454");
-function faqcontetn(click,forcals){
+const arrowicon=document.querySelectorAll(".arrow_class");
+function faqcontetn(click,forcals,acpi){
     click.addEventListener("click",()=>{
-        forcals.classList.toggle('d-none')
-        click.classList.toggle('addhovercollor')
+        forcals.classList.toggle('d-none');
+        click.classList.toggle('addhovercollor');
+        acpi.classList.toggle('fa-angle-up');
+        acpi.classList.toggle('fa-angle-down');
+
     })   
 }
 for(let i=0; i<=clickfaq_area.length;i++){
-    faqcontetn(clickfaq_area[i],showhide[i]);
+    faqcontetn(clickfaq_area[i],showhide[i],arrowicon[i]);
 }
 //
+
+function runPriceanimation(){
+    const allpricefild=document.querySelectorAll(".pricesele_formy");
+    allpricefild.forEach((val)=>{
+        let tergetval=+val.getAttribute('data-c-price');    
+            tergetval=tergetval*seletopt
+
+        const increamentval=tergetval/50;
+        console.log(increamentval)
+        let currentval=0;
+        
+        updateval();
+        function bcsaf(){
+            requestAnimationFrame(updateval)
+        }
+        function updateval(){
+            currentval+=increamentval;
+            if(currentval<tergetval){
+                val.innerHTML=Math.floor(currentval)
+                console.log(val)
+                console.log(currentval)
+                bcsaf()
+            }else{
+                val.innerHTML=Math.floor(tergetval);
+
+            }
+
+        }
+        
+
+
+    })
+}
+

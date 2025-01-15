@@ -1,0 +1,45 @@
+@media (width<=575px) and (width>=0px){
+.maxwhiforryit{
+ font-size: 20px;   
+ width: auto;
+}
+.fotnsrixx{
+font-size: 16px;
+}
+.fontzixww{
+font-size: 10px;
+}
+
+
+.life_rerersfe{
+ font-size: 10px;
+       
+ }
+.highligharea_red{
+background-color: red;
+height: 100%;
+width: calc(100%/3);
+ position: absolute;
+  z-index: 0;
+  top: 50%;
+  transform: translateY(-50%);
+ left: calc(100%/3*1);
+ transition: all .3s;
+ border-radius: 5px;
+               
+ }
+}
+@media (width<=767px) and (width>=576px){
+    .maxwhiforryit{
+        font-size: 30px;   
+        width: 500px;
+       }
+       .seletArea349{
+        width: 180px;
+        text-align: center;
+        cursor:pointer
+        }
+        
+}
+@media (width<=991px) and (width>=768px){
+}
