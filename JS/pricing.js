@@ -1,4 +1,4 @@
-let seletopt=0;
+let seletopt=1;
 
 
 const seleforpalan=document.getElementById('seleforpalan');
