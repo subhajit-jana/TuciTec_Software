@@ -1,0 +1,123 @@
+@media (width<=575px) and (width>=0px){
+    .firstcontaner_mp{
+        background-color: #EADAFF;
+        padding-top: 70px;
+        padding-bottom: 130px;
+        }
+        .firstcontaner_mp_b{
+        color: #2F1C48;
+        font-size: 2.3rem;
+        font-weight: bolder;
+        text-align: center;
+        }
+        .firstcontaner_mp_c{
+        color: #873EAC;
+        font-size: 1.3rem;
+        width: 90%;
+        margin-inline: auto;
+        }
+        /*  */
+        /*  */
+        /*  */
+        /*  */
+        /*  */
+        .boxlfrom{
+        width: 90%;
+        
+        }
+        /*  */
+        .text_popup a{
+  
+            margin-inline: 1rem;
+            padding: .3rem 1rem;
+            width: 50%;
+            
+          
+          }
+}
+@media (width<=767px) and (width>=576px){
+    .firstcontaner_mp{
+        background-color: #EADAFF;
+        padding-top: 70px;
+        padding-bottom: 130px;
+        }
+        .firstcontaner_mp_b{
+        color: #2F1C48;
+        font-size: 2.5rem;
+        font-weight: bolder;
+        text-align: center;
+        }
+        .firstcontaner_mp_c{
+        color: #873EAC;
+        font-size: 1.3rem;
+        width: 90%;
+        margin-inline: auto;
+        }
+        /*  */
+        /*  */
+        /*  */
+        /*  */
+          /* card */
+          .cardformp{
+
+            max-width: 400px;
+            /* width: 50%; */
+            
+            background-color: white;
+            padding: 1rem;
+            display: flex;
+            flex-direction: column;
+            margin-left: 10px;
+            
+            }
+        /*  */
+        .cardformpHeading{
+            font-size: 2rem;
+            font-weight: bolder;
+            margin-block: 10px;
+            
+            }
+            .cardformp_title{
+                font-size: 1.5rem;
+                font-weight: bold;
+                margin-block: 1rem;
+            }
+            .description{
+                margin-bottom: auto;
+                font-size: 1.3rem;
+                }
+}
+@media (width<=991px) and (width>=768px){
+    .firstcontaner_mp{
+        background-color: #EADAFF;
+        padding-top: 70px;
+        padding-bottom: 130px;
+        }
+        .firstcontaner_mp_b{
+        color: #2F1C48;
+        font-size: 3rem;
+        font-weight: bolder;
+        text-align: center;
+        }
+        .firstcontaner_mp_c{
+        color: #873EAC;
+        font-size: 1.7rem;
+        width: 90%;
+        margin-inline: auto;
+        }
+        /*  */
+        /*  */
+        /* card */
+        .cardformp{
+
+            max-width: 330px;
+            /* width: 50%; */
+            
+            background-color: white;
+            padding: 1rem;
+            display: flex;
+            flex-direction: column;
+            margin-left: 10px;
+            
+            }
+}

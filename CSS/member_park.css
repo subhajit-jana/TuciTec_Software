@@ -1,0 +1,169 @@
+
+.firstcontaner_mp{
+background-color: #EADAFF;
+padding-top: 70px;
+padding-bottom: 130px;
+/* height: 600px; */
+
+}
+.firstcontaner_mp_b{
+color: #2F1C48;
+font-size: 4rem;
+font-weight: bolder;
+text-align: center;
+z-index: 1;
+}
+.firstcontaner_mp_c{
+color: #873EAC;
+font-size: 2rem;
+width: 80%;
+margin-inline: auto;
+z-index: 1;
+}
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/* CARD */
+.cardformp_container{
+background-color: #f0f0f0;
+box-sizing: border-box;
+border: 1px solid transparent;
+
+
+
+}
+.cardformp_container_box{
+    position: relative;
+    z-index: 0;
+     margin-top: -100px;
+     background-color: transparent;
+   
+}
+
+.cardformp{
+box-shadow: 0px 4px 8px rgb(0, 0, 0,0.1);
+width: 400px;
+background-color: white;
+padding: 1rem;
+display: flex;
+flex-direction: column;
+margin: 10px;
+border-radius: 10px;
+cursor: pointer;
+
+
+}
+.cardformpHeading{
+font-size: 1.4rem;
+font-weight: bolder;
+margin-block: 10px;
+
+}
+.cardformpHeading_123{
+    color: #873EAC;
+}
+.cardformp_title{
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-block: 1rem;
+}
+.description{
+margin-bottom: auto;
+font-size: 1.21rem;
+}
+.cardbtnformp{
+  padding: 1rem 3.7rem;
+  /* background-color: ; */
+  border: 1px solid #873EAC;
+  border-radius: 10px;
+  color: black;
+  transition: all .4s;
+  font-weight: bolder;
+
+}
+.cardbtnformp:hover{
+    background-color: #873EAC;
+    color: white;
+
+}
+
+/*  */
+/*  */
+/*  */
+/*  */
+/* pop up  */
+.boxdfsd{
+  background-color: rgba(16, 15, 15, 0.26);
+  height: 100vh;
+  width: 100vw;
+  z-index: 99;
+  position: fixed;
+
+}
+ 
+
+.boxlfrom{
+    padding: 1rem;
+width: 500px;
+background-color: white;
+
+  
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+
+}
+.text_popup a{
+  
+  margin-inline: 1rem;
+  padding: 1rem 2rem;
+  width: 50%;
+  
+
+}
+.boxlfrom_title{
+font-size: 2.2rem;
+font-weight: bolder;
+}
+.boxlfrom_description{
+font-size: 1.4rem;
+}
+.text_popup_a{
+    background-color: #764CAE;
+    color: white;
+    border:1px solid  #764CAE;;
+}
+.text_popup_a:hover{
+    background-color: white;
+    color: #764CAE;
+    border:1px solid  #764CAE;;
+}
+
+.text_popup_b{
+    background-color: white;
+    color: #764CAE;
+    border:1px solid  #764CAE;
+    
+}
+.text_popup_b:hover{
+    background-color: #764CAE;
+    color: white;
+    border:1px solid  #764CAE;;
+}
+.xforclose{
+border: 1px solid red;
+position: fixed;
+right: 0;
+top: 0;
+height: 30px;
+width: 30px;
+font-size: 2rem;
+  background-color: red;
+  color: white;
+cursor: pointer;
+
+}
