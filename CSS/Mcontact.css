@@ -1,0 +1,25 @@
+@media (width<=575px) and (width>=0px){
+    .containedf3434r{
+        width: 90%;
+        }
+        .title_contane{
+            font-size: 2rem;
+            font-weight: bolder;
+            line-height: 2rem;
+            }
+            .title_contane_descri{
+                font-size: 1.3rem;
+                font-weight: bold;
+                color: #0b090c;
+                }
+}
+@media (width<=767px) and (width>=576px){
+    .containedf3434r{
+        width: 90%;
+        }
+}
+@media (width<=991px) and (width>=768px){
+    .containedf3434r{
+    width: 90%;
+    }
+}

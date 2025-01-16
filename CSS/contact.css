@@ -1,0 +1,45 @@
+.contactfluid{
+  background-color: #764CAE;
+
+}
+.text_fror_padd{
+width: 350px;
+height: 150px;
+padding: 1rem;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+border-radius: 10px;
+margin-block: 1rem;
+}
+.text_fror_padd_title{
+font-size: 1.5rem;
+font-weight: bolder;
+
+}
+.text_fror_padd_descriptions{
+
+}
+.text_fror_padd_mail{
+font-weight: bolder;
+color: #873EAC;
+}
+.lserte54{
+width: 100%;
+padding: 1rem;
+border-radius: 10px;
+}
+.containedf3434r{
+width: 800px;
+
+}
+.title_contane{
+font-size: 3.3rem;
+font-weight: bolder;
+line-height: 3.2rem;
+}
+.title_contane_descri{
+font-size: 2rem;
+font-weight: bold;
+color: #0b090c;
+}
