@@ -1,0 +1,101 @@
+*{
+    box-sizing: border-box;
+}
+.position-absolute23323{
+    position: absolute ;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 100%;
+    width: 50px;
+}
+.insearboxfor_home{
+height: 3.2rem;
+width: 100%;
+
+}
+.insearboxfor_home_container{
+outline: none !important;
+border: none !important;
+min-width: 40rem;
+font-size: 2rem;
+}
+input:focus{
+outline: none !important;
+
+}
+input{
+    padding-left: 2rem;
+    padding-right: 4rem;
+    outline: none !important;
+border: none !important;
+}
+.titlecotshome{
+font-size: 42px;
+font-weight: 700;
+
+}
+.clasdfforpadinf34d{
+    padding: 4rem 0rem;
+}
+.fw_feeboldedfdr{
+font-size: 1.4rem;
+font-weight: 700;
+}
+.contetn34343{
+padding: 44px 16px;
+}
+.cardforsc_345vd3 img{
+max-width: 300px;
+width: 100%;
+
+}
+.cardforsc_345vd3 div{
+
+font-size: 1.2rem;
+font-weight: 700;
+    
+    
+    }
+.calsfrof454fdf{
+padding: 24px;
+border-radius: 10px;
+max-width: 270px;
+background: #f0f0f0;
+}
+.dfsfdf45fd454{
+padding-bottom: 60px;
+}
+.fdfdfsewsde33e3{
+font-size: 20px;
+font-weight: 700;
+}
+.fdfdfsewsdesds33e3{
+color: #764CAE;
+}
+.dfdgfd4dcg4{
+padding: 32px;
+
+}
+.dfdgfd4dcg4_title{
+font-size: 18px;
+font-weight: 700;
+color: #764CAE;
+}
+.fa-copy {
+font-size: 2rem;
+}
+.l_fdsfsfe_a{
+    border-right:1px solid  #764cae54 ;
+   
+}
+
+
+.l_fdsfsfe_c{
+    border-top:1px solid  #764cae54 ;
+    border-right:1px solid  #764cae54 ;
+}
+
+.l_fdsfsfe_d{
+    border-top:1px solid  #764cae54 ;
+}
