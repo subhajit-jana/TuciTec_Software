@@ -1,0 +1,100 @@
+*{
+    box-sizing: border-box;
+}
+.sc_first{
+font-size: 40px;
+font-weight: 700;
+color: #2F1C48;
+}
+.container_firstforsc{
+padding: 3.75rem 0px;
+
+}
+.sc_first{
+margin-bottom: 1.6rem;
+}
+.sc_first114{
+max-width: 45rem;
+
+}
+.sc_first11{
+margin-bottom: 3.2rem;
+font-size: 1.3rem;
+color: #873EAC;
+}
+.btnfirstsc{
+padding:.7rem 1.3rem;
+display: inline-block;
+border: 1px solid   #AC6CFF;
+background:#2B2038;
+color: white;
+min-width: 14rem !important;
+border-radius: 10px;
+font-size: 1.3rem;
+
+}
+.btnfirstsc:hover{
+transform: translateY(-4px);
+box-shadow: 0px 4px 8px black;
+}
+/* 2nd area */
+.sesc_titlefr{
+font-size: 1.8rem;
+font-weight: 700;
+padding: 2.5rem 0;
+}
+.padding_df4fd{
+padding: 3.75rem 0;
+}
+.fa-arrow-right{
+color: #2B2038;
+margin: 1rem;
+}
+.fa-arrow-down{
+    color: #2B2038;
+    margin: 1rem;
+
+}
+.arrow_for_asce div{
+margin: .3rem .3rem ;
+}
+.sc_forheading{
+font-size: 3.23rem;
+font-weight: 700;
+}
+.sc_forheading_titel343{
+font-size: 1.5rem;
+}
+.container_for3432{
+max-width: 30rem;
+}
+.imgforsc_acbd45f{
+width: 35rem;
+min-width: 25rem;
+}
+.dcHeadtitlde{
+font-size: 3.2rem;
+font-weight: 700;
+}
+.dcHeadtitlde_34fvbd44{
+padding: 3.7rem 0 7.8rem;
+  background-color: #AC6CFF;
+
+}
+.lstimgflsc_23fdfd{
+width: 300px;
+box-shadow: 0px 4px 8px black;
+}
+.container34r3{
+padding: 0 1.2rem 2rem;
+}
+.fw34343bolder{
+font-weight: 700;
+}
+.dsxfflei4554{
+  background-color: #f0f0f0;
+padding: 7.5rem 0;
+}
+.lastheadn56{
+
+}
