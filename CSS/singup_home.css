@@ -44,6 +44,9 @@ font-weight: 700;
 .fskasd4{
 color: #764CAE;
 }
+.fskasd4:hover{
+    color: black;
+    }
 input{
  height: 50px;
  font-size: 32px;
