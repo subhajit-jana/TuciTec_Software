@@ -1,4 +1,16 @@
 @media (width<=575px) and (width>=0px){
+    .borderabcd_c{
+        border-block:none;
+    }
+    .borderabcd_d{
+        border-block:none;
+    }
+    .borderabcd_a,.borderabcd_c,.borderabcd_e{
+        border-right: none   ;
+        }
+    .borderabcd_a,.borderabcd_b,.borderabcd_c, .borderabcd_d,.borderabcd_e{
+        border-bottom: 1px solid black;
+    }
 }
 @media (width<=767px) and (width>=576px){
     .borderabcd_c{
