@@ -1,0 +1,40 @@
+.headingfor_salutions{
+font-size: 24px;
+font-weight: 700;
+padding: 16px 20px;
+border-bottom: 1px solid gray;
+
+}
+.destitle34sf{
+font-size: 20px;
+font-weight: 700;
+padding-left: 20px;
+}
+.containerfre3s{
+padding: 20px;
+}
+.destitle34sf342e343{
+padding-block: 20px;
+}
+.sfds33dse{
+  background-color: #f0f0f0;
+  border: 1px solid #f0f0f0;
+
+}
+/* border  */
+.borderabcd_a,.borderabcd_c,.borderabcd_e{
+border-right: 1px solid gray   ;
+}
+.borderabcd_c{
+    border-block: 1px solid gray;
+}
+.borderabcd_d{
+    border-block: 1px solid gray;
+}
+.textcoloe34{
+    color: rgb(17, 0, 255);
+    cursor: pointer;
+}
+.textcoloe34:hover{ 
+    color: black;
+}
